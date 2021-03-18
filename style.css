@@ -1,0 +1,85 @@
+#címer {
+    float: right;
+
+}
+#domborzat {
+    width: 452px;
+    height: 250px;
+    float: right;
+}
+#zászló {
+    float: right;
+    width: 250px;
+    height: 130px
+}
+body {
+    background-color: cornsilk;
+    margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+  padding: 150px;
+  padding-top: 150px;
+  padding-bottom: 150px;    
+  height:fit-content ;
+}
+body img {
+    border-radius: 20px;
+    margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+    border: 3px blue solid;
+}
+body img:hover {
+    border-radius: 25px 15px 25px 15px;
+    border: 8px orange double;
+    cursor: pointer;
+}
+
+li {
+    margin-bottom: 25px;
+  }
+
+h1 {
+      text-align: center;
+  }
+  p {
+    text-indent: 35px;
+    text-align: justify;
+    letter-spacing: -0.1px;
+    line-height: 150%;
+  }
+  #balaton {
+    width: 350px;
+    height: 150px;
+    display: inline block;
+    float: right;
+  }
+  #balcsi {
+
+  }
+  #piros {
+      color: white;
+      background-color: red;
+      width:5cm;
+  }
+  #fehér {
+      color:black;
+      width:5cm;
+      background-color:whitesmoke;
+  }
+  #zöld {
+      color: white;
+      background-color: green;
+      width:5cm;
+
+  }
+  .zászlaja ul li {
+    display: inline block;
+    float: left;
+  }
+
+  #lista {
+    list-style: none;
+  }
